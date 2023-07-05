@@ -266,6 +266,9 @@ body::-webkit-scrollbar {
       .btn-outline {
         margin: 30px 0;
       }
+ .background-image {
+  background-size: cover;
+  width: 250vw;
 
     
   }
