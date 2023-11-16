@@ -100,6 +100,11 @@ button:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+    .card {
+        max-width: none; /* Remove max-width on smaller screens */
+    }
+}
 
 @media (max-width: 767px) {
     .card {
